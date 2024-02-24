@@ -16,21 +16,21 @@ end
 --load remote events--
 loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/remoteEvents.lua")
 
-local treeModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/tree-module.lua")
-local fruitModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/fruit-module.lua")
-local cropModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/crop-module.lua")
-local breakModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/break-blocks-module.lua")
-local flowerWaterModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/flower-module.lua")
-local animalModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/animal-module.lua")
-local treasureModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/treasure-chest-module.lua")
-local wildFruitModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/wild-fruit-module.lua")
-local wildCropModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/wild-crops-module.lua")
-local chestModule = loadModule("https://raw.githubusercontent.com/ashlux/roblox-islands/main/modules/chest-module.lua")
+local treeModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/tree-module.lua")
+local fruitModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/fruit-module.lua")
+local cropModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/crop-module.lua")
+local breakModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/break-blocks-module.lua")
+local flowerWaterModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/flower-module.lua")
+local animalModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/animal-module.lua")
+local treasureModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/treasure-chest-module.lua")
+local wildFruitModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/wild-fruit-module.lua")
+local wildCropModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/wild-crops-module.lua")
+local chestModule = loadModule("https://raw.githubusercontent.com/aliaz3d/Test/main/modules/chest-module.lua")
 
 print("Loading Complete!")
 
 if game.PlaceId == 11838346571 then -- lunar event (islands arcade)
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ashlux/roblox-islands/main/lunar-area.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/aliaz3d/Test/main/lunar-area.lua'))()
     return
 end
 
@@ -922,7 +922,7 @@ Item3.MouseButton1Click:Connect(function()
     if v2Debounce == false then
         v2Debounce = true
         Item3.Text = "Loading V2"
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/ashlux/roblox-islands/main/roblox-islands-ui-v2.lua'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/aliaz3d/Test/main/roblox-islands-ui-v2.lua'))()
         task.wait()
         Item3.Text = "Islands GUI V2"
         v2Debounce = false
@@ -945,7 +945,7 @@ Copypaste.Visible = false
 
 Copypaste.MouseButton1Click:Connect(function()
     Copypaste.Text = "Loading"
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ashlux/roblox-islands/main/Useless-maybe/copyPasteBuilds.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/aliaz3d/Test/main/Useless-maybe/copyPasteBuilds.lua'))()
     task.wait()
     Copypaste.Text = "Copy/Paste (Beta)"
 end)
@@ -2852,7 +2852,7 @@ blockPrinter.TextScaled = true
 blockPrinter.Visible = false
 
 blockPrinter.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ashlux/roblox-islands/main/Useless-maybe/islands%20FillBlocks.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/aliaz3d/Test/main/Useless-maybe/islands%20FillBlocks.lua'))()
 end)
 
 local Item32 = Instance.new("TextButton")
@@ -4540,7 +4540,7 @@ end)
 
 
 Item2.MouseButton1Click:Connect(function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/ashlux/roblox-islands/main/join-invite-player-gui.lua'))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/aliaz3d/Test/main/join-invite-player-gui.lua'))()
 end)
 
 Item4.MouseButton1Click:Connect(function()
