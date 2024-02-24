@@ -2,14 +2,14 @@ local MAIN_VERSION = table.pack(...)[1] or "main"
 
 local function loadModule(moduleFile, desiredVersion)
 	local version = desiredVersion or MAIN_VERSION
-	local url = "https://raw.githubusercontent.com/ashlux/roblox-islands/" .. version .. "/" .. moduleFile
+	local url = "https://raw.githubusercontent.com/aliaz3d/Test/" .. version .. "/" .. moduleFile
 	return loadstring(game:HttpGet(url))(version)
 end
 
 -- Needs to be loaded FIRST THING for disabling XP orbs to work
 local animationModule = loadModule("modules/animation-module.lua")
 
-local Atlas = loadstring(game:HttpGet("https://github.com/GhostDuckyy/UI-Libraries/blob/main/Atlas%20UI%20Library/source.lua"))()
+local Atlas = loadstring(game:HttpGet("https://raw.githubusercontent.com/aliaz3d/Test/main/AtlasUI.lua"))()
 
 function waitUntilLoaded()
 	repeat wait()
