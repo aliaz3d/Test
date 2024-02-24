@@ -9,7 +9,7 @@ end
 -- Needs to be loaded FIRST THING for disabling XP orbs to work
 local animationModule = loadModule("modules/animation-module.lua")
 
-local Atlas = loadstring(game:HttpGet("https://siegehub.net/Atlas.lua"))()
+local Atlas = loadstring(game:HttpGet("https://github.com/GhostDuckyy/UI-Libraries/blob/main/Atlas%20UI%20Library/source.lua"))()
 
 function waitUntilLoaded()
 	repeat wait()
