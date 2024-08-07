@@ -1,0 +1,1 @@
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/aliaz3d/Test/main/roblox-islands.lua"))();
